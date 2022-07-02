@@ -1,11 +1,9 @@
 package one.digitalinnovation.digionebank
 
 data class Banco(
-    val nomeBanco: String = "",
-    val numero: Int = 0
-){
-    fun info() =  "$nomeBanco e $numero"
+    val nome: String,
+    val numero: Int
+) {
+    fun info() = "$nome - $numero"
 }
-
-
 
